@@ -1,5 +1,5 @@
-import React from "react";
+import { UserListTemplate } from '@template/index';
 
 export default function MainPage() {
-  return <div>MainPage</div>;
+  return <UserListTemplate />;
 }
