@@ -1,3 +1,3 @@
 import UserListTemplate from './userListTemplate/userListTemplate';
-
-export { UserListTemplate };
+import UserInfoTemplate from './UserInfoTemplate/userInfoTemplate';
+export { UserListTemplate, UserInfoTemplate };
