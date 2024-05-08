@@ -1,0 +1,27 @@
+@import url('./tailwindcss.css');
+@import url('https://v1.fontapi.ir/css/Vazir');
+
+
+body {
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  margin: 0;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  line-height: inherit;
+}
+
+.ant-btn:hover {
+  /* Disable the hover effect by setting the same styles as the default state */
+  color: inherit; /* Optionally specify the color */
+  background-color: inherit; /* Optionally specify the background color */
+  border-color: inherit; /* Optionally specify the border color */
+  /* Add any other styles you want to maintain for the default state */
+}
+
+.text-ltr {
+  direction: ltr;
+}
