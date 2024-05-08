@@ -1,9 +1,6 @@
 @import url('./tailwindcss.css');
-@import url('https://v1.fontapi.ir/css/Vazir');
-
 
 body {
-  direction: rtl;
   padding: 0;
   margin: 0;
   margin: 0;
@@ -20,8 +17,4 @@ body {
   background-color: inherit; /* Optionally specify the background color */
   border-color: inherit; /* Optionally specify the border color */
   /* Add any other styles you want to maintain for the default state */
-}
-
-.text-ltr {
-  direction: ltr;
 }
